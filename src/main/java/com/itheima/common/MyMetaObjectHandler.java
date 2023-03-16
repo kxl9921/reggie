@@ -19,7 +19,6 @@ public class MyMetaObjectHandler implements MetaObjectHandler {
        metaObject.setValue("createUser", BaseContext.getCurrentId());
        metaObject.setValue("updateUser",BaseContext.getCurrentId());
     }
-
     @Override
     public void updateFill(MetaObject metaObject) {
         log.info("start update fill ....");
